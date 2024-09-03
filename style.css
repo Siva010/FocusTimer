@@ -1,0 +1,196 @@
+@font-face {
+  font-family: myfont;
+  src: url(./fonts/myfont.otf);
+}
+.btns {
+  font-size: 20px;
+  font-family: myfont;
+  background-color: rgb(87, 68, 255);
+  cursor: pointer;
+  transition: background-color 0.25s;
+  border-radius: 10px;
+  outline: solid white;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+.btns:hover {
+  background-color: rgb(125, 69, 255);
+}
+
+#Quote {
+  display: block;
+  border-radius: 10px;
+  font-size: 100px;
+  font-family: myfont;
+  background-color: rgba(255, 255, 255, 0.205);
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  width: 800px;
+  height: 100px;
+  outline: dotted rgb(84, 66, 255);
+
+  border-left-width: 10px;
+  margin-left: 800px;
+}
+#smlBtn {
+  font-size: 30px;
+}
+#interBtn {
+  font-size: 35px;
+}
+#expBtn {
+  font-size: 40px;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(./fonts/myfont.otf);
+}
+
+h1 {
+  font-size: 50px;
+  outline: 5px dotted green;
+  font-family: myfont;
+  outline-width: thick;
+  -webkit-text-stroke-width: 0.01pt;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  text-shadow: 0px 4px 4px #282828;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-shadow: 0px 4px 4px #282828;
+
+  font-family: myfont;
+}
+
+.container {
+  background-color: rgb(76, 59, 207);
+  border: 2px solid rgb(255, 255, 255);
+
+  border-radius: 360px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+#heading {
+  background-color: rgb(87, 68, 255);
+  outline: 2px solid black;
+}
+
+.FT {
+  color: black;
+  outline: solid rgba(255, 255, 255, 0.466);
+
+  background-color: rgb(63, 49, 190);
+  text-align: center;
+  font-size: 25px;
+  margin: 10px;
+  height: 160px;
+  width: 20%;
+  border: 3px dashed rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.Smalltask {
+  background-color: rgb(63, 49, 190);
+  text-align: center;
+  font-size: 14px;
+  margin: auto;
+  height: 120px;
+  width: 20%;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  outline: solid white;
+}
+
+.Intermediatetask {
+  background-color: rgb(63, 49, 190);
+  text-align: center;
+  font-size: 16px;
+  margin: auto;
+  height: 140px;
+  width: 30%;
+  border: 2px solid black;
+  margin-top: 20px;
+  padding: 20px;
+  outline: solid white;
+}
+
+.Expertask {
+  background-color: rgb(63, 49, 190);
+  text-align: center;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 180px;
+  width: 30%;
+  border: 2px solid black;
+  margin-top: 20px;
+  padding: 20px;
+  outline: solid white;
+}
+
+@media (max-width: 650px) {
+  .container {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .FT {
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    width: 30%;
+    border: 3px dotted rgb(0, 0, 0);
+    padding: 10px;
+  }
+  .Smalltask {
+    text-align: center;
+    font-size: 14px;
+    margin: auto;
+    width: 25%;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .Intermediatetask {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 30%;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .Expertask {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  #smlBtn {
+    font-size: 20px;
+  }
+  #interBtn {
+    font-size: 20px;
+  }
+  #expBtn {
+    font-size: 20px;
+  }
+}
